@@ -1,0 +1,24 @@
+1550471482379	Delete element
+1550472174831	Delete element
+1550472518533	Delete element
+1550472638987	Delete element
+1550472650531	Delete element
+1550477150253	Extract local variable 'httpClient'
+1550477387923	Extract local variable 'response'
+1550477494518	Extract local variable 'result'
+1550477676170	Extract local variable 'string'
+1550478984321	Rename resource 'applicationContext-httpclient.xml'
+1550544531111	Extract local variable 'result'
+1550550950447	Extract local variable 'result'
+1550552652190	Extract local variable 'item'
+1550552683950	Extract local variable 'itemDesc'
+1550720865422	Extract local variable 'md5Pass'
+1550721111803	Extract local variable 'result'
+1550724449866	Extract local variable 'sysResult'
+1550737908666	Extract local variable 'result'
+1550738090466	Extract local variable 'sysResult'
+1550738185028	Extract local variable 'token'
+1550805924588	Extract local variable 'result'
+1550806842393	Extract local variable 'sysResult'
+1550806888145	Extract local variable 'cartList'
+1550829769506	Extract local variable 'cartJSON'

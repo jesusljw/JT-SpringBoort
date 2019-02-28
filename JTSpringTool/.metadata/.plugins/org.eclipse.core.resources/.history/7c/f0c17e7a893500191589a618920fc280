@@ -1,0 +1,32 @@
+package com.jt.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jt.common.po.User;
+import com.jt.common.vo.SysResult;
+
+@Controller
+@RequestMapping("/user")
+public class UserController {
+	//通用页面显示
+	@RequestMapping("/{moduleName}")
+	public String index(@PathVariable String moduleName) {
+		return moduleName;
+		
+	}
+	
+	@RequestMapping("/doRegister")
+	public SysResult saveUser(User user) {
+		
+		
+		return null;
+		
+	}
+	
+	
+	
+	
+	
+}

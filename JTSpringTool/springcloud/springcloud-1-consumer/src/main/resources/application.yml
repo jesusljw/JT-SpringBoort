@@ -1,0 +1,22 @@
+server:
+  port: 8020
+  servlet:
+    context-path: /
+eureka:
+  client:
+    register-with-eureka: false    #不会将自己的信息注册到eureka中
+    service-url:
+      #链接注册中心集群
+       defaultZone: http://localhost:7000/eureka
+       
+feign:
+  hystrix:
+    enabled: true                 #启动熔断器机制 !!!!!!!!!!!!!
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000  #设定断路器超时时间 说明:当服务端宕机机.由客户端中的配置返回数据,节省时间开销.

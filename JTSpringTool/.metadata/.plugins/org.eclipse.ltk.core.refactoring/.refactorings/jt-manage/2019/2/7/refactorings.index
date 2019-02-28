@@ -1,0 +1,21 @@
+1550049413844	Move package
+1550054357530	Extract local variable 'map'
+1550054780437	Extract local variable 'number'
+1550054870819	Extract local variable 'list'
+1550114364047	Extract local variable 'value'
+1550115421091	Extract local variable 'transaction'
+1550124448732	Copy file
+1550124658629	Copy file
+1550126128173	Extract local variable 'objectMapper'
+1550126161562	Extract local variable 'user'
+1550126330262	Extract local variable 'JSON'
+1550126510180	Extract local variable 'tempUser'
+1550126949315	Extract local variable 'userList'
+1550127468919	Extract local variable 'listJSON'
+1550128015350	Extract local variable 'list'
+1550128079771	Infer generic type arguments
+1550128291471	Extract local variable 'users'
+1550129146626	Extract local variable 'treeList'
+1550129301848	Extract local variable 'listJSON'
+1550133622119	Extract local variable 'shardedJedis'
+1550201278595	Extract local variable 'jedis'

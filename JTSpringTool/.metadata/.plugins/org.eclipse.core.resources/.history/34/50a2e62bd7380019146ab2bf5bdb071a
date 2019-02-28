@@ -1,0 +1,15 @@
+package com.jt.web.service;
+
+import com.jt.common.po.Order;
+
+public interface OrderService {
+
+	static String saveOrder(Order order) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+	
+}

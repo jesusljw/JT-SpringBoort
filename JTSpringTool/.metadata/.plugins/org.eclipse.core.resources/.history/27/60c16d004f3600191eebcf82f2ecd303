@@ -1,0 +1,23 @@
+package com.jt.web.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jt.web.service.CartService;
+
+@Controller
+@RequestMapping("cart/")
+public class CartController {
+	
+	@Autowired
+	private CartService cartService;
+	
+	//展现
+	@RequestMapping("/show")
+	public String findCartList() {
+		Long userId = 7L;//暂时写死7L
+		return "cart";
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.jt.web.service;
+
+public interface OrderService {
+
+	static String saveOrder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

@@ -1,0 +1,18 @@
+1551078864135	Delete element
+1551078870260	Delete element
+1551079083201	Delete element
+1551079086963	Delete element
+1551079093786	Delete elements
+1551079139965	Rename package 'com.jt.cart.config'
+1551079156070	Rename package 'com.jt.cart.controller'
+1551079163411	Rename package 'com.jt.cart.mapper'
+1551079172795	Rename package 'com.jt.cart.service'
+1551079184359	Rename package 'com.jt.cart.vo'
+1551079505491	Rename resource 'UserMapper.xml'
+1551079921662	Move compilation unit
+1551080766888	Copy compilation units
+1551090287641	Extract local variable 'orderItems'
+1551095851896	Extract local variable 'order'
+1551096054017	Extract local variable 'orderShipping'
+1551096065965	Extract local variable 'orderItem'
+1551149479751	Extract local variable 'date'

@@ -1,0 +1,5 @@
+package com.jt.springcloud.service;
+
+public interface UserService {
+
+}

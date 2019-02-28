@@ -1,0 +1,30 @@
+package com.jt.web.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.util.DigestUtils;
+
+import com.jt.common.po.User;
+import com.jt.common.service.HttpClientService;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+	private HttpClientService httpClient;
+
+	@Override
+	public void saveUser(User user) {
+		String url = "http://sso.jt.com/user/register";
+		Map<String,String> params = new HashMap<>();
+		params.put("username", user.getUsername());
+		String md5Pass = DigestUtils.md5DigestAsHex(user.getPassword().getBytes());
+		params.put("password", md5Pass);
+		params.put("phone", user.getPhone());
+		httpClient.doPost(url, params);
+		
+	}
+}

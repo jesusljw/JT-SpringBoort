@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jt.SpringBoot_provider_8000&apos; to &apos;SpringBoot_provider_8001&apos;&#x0D;&#x0A;- Original project: &apos;springcloud-1-provider-2&apos;&#x0D;&#x0A;- Original element: &apos;com.jt.SpringBoot_provider_8000&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jt.SpringBoot_provider_8001&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SpringBoot_provider_8000&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.jt{SpringBoot_provider_8000.java[SpringBoot_provider_8000" matchStrategy="1" name="SpringBoot_provider_8001" qualified="false" references="true" similarDeclarations="false" stamp="1551236286627" textual="false" version="1.0"/>
+</session>

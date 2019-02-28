@@ -1,0 +1,8 @@
+1550624071954	Rename package 'com.example.demo'
+1550627968169	Extract local variable 'userList'
+1550629181433	Extract local variable 'rows'
+1550632144665	Extract local variable 'args'
+1550632164464	Extract local variable 'host'
+1550634813322	Copy folder
+1550635081060	Copy elements
+1550639014282	Copy compilation unit

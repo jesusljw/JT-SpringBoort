@@ -1,0 +1,31 @@
+package com.jt.cart.service;
+
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.jt.cart.mapper.CartMapper;
+import com.jt.cart.pojo.Cart;
+
+
+@Service
+public class CartServiceImpl implements CartService{
+
+	@Autowired
+	private CartMapper cartMapper;
+	
+	
+	@Override
+	public List<Cart> findCartListByUserId(Long userId) {
+		QueryWrapper<Cart> queryWrapper = new QueryWrapper<Cart>();
+		queryWrapper.eq("user_id",userId);
+		return cartMapper.selectList(queryWrapper);
+	}
+
+
+	
+
+}

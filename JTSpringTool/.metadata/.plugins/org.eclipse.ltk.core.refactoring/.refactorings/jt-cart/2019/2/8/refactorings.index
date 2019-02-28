@@ -1,0 +1,20 @@
+1550802131674	Delete element
+1550802345557	Copy package
+1550802364831	Rename package 'com.jt.cart.config'
+1550802389380	Rename type 'SpringBoot_SSO'
+1550802460293	Copy package
+1550802464025	Delete element
+1550802477381	Copy package
+1550802485686	Copy package
+1550802495522	Copy package
+1550802504865	Copy package
+1550802899427	Delete elements
+1550802948648	Rename type 'UserController'
+1550802960292	Rename type 'UserMapper'
+1550802971621	Rename type 'UserService'
+1550802980109	Rename type 'UserServiceImpl'
+1550803974349	Copy compilation unit
+1550821989901	Rename package 'com.jt.cart.util'
+1550822138494	Extract local variable 'cart'
+1550822667602	Extract local variable 'cartDB'
+1550823276899	Extract local variable 'entity'
